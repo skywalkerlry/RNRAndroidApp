@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">测试程序</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="color">选择色彩：</string>
+    <string array="" name="colors">
+        <item>黑色 | Black</item>
+        <item>蓝色 | Blue</item>
+        <item>棕色 | Brown</item>
+        <item>绿色 | Green</item>
+        <item>灰色 | Grey</item>
+        <item>粉色 | Pink</item>
+        <item>紫色 | Purple</item>
+        <item>红色 | Red</item>
+        <item>白色 | White</item>
+        <item>黄色 | Yellow</item>
+    </string>
+</resources>
