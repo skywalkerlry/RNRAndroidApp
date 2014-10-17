@@ -1,4 +1,0 @@
-RNRAndroidApp
-=============
-
-RNR android app

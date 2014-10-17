@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/TextView01"
+        android:text="SQLite基本操作">
+    </TextView>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Button01"
+        android:text="增 | insert"
+        android:minWidth="200dp">
+    </Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Button02"
+        android:text="删 | delete"
+        android:minWidth="200dp">
+    </Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Button03"
+        android:text="改 | update"
+        android:minWidth="200dp"></Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Button04"
+        android:text="查 | select"
+        android:minWidth="200dp"></Button>
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/Spinner01"
+        android:minWidth="200dp">
+    </Spinner>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/TextView02">
+    </TextView>
+</LinearLayout>
