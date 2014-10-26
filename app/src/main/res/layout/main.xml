@@ -5,52 +5,5 @@
     android:layout_width="fill_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:text="张信哲的热搜歌曲">
-    </TextView>
 
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="爱如潮水 "
-        android:id="@+id/Button01">
-    </Button>
-
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="过火 "
-        android:id="@+id/Button02">
-    </Button>
-
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="别怕我伤心 "
-        android:id="@+id/Button03">
-    </Button>
-
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="从开始到现在 "
-        android:id="@+id/Button04">
-    </Button>
-
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="信仰 "
-        android:id="@+id/Button05">
-    </Button>
-
-
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="说谎 "
-        android:id="@+id/Button06">
-    </Button>
 </LinearLayout>

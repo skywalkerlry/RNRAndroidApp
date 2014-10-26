@@ -2,13 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.rnrandroidapp" >
     <user-permission
-        android:name="android.permission.INTERNET">
+        android:name="android.permission.INTERNET" >
     </user-permission>
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/BasicButtonTheme" >
+        android:label="@string/app_name" >
+        <activity
+            android:name=".CoverActivity"
+            android:label="@string/title_activity_cover" >
+        </activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
@@ -19,4 +22,3 @@
         </activity>
     </application>
 </manifest>
-
