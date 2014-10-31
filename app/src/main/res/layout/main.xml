@@ -5,5 +5,38 @@
     android:layout_width="fill_parent"
     android:orientation="vertical">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText
+        android:text=""
+        android:id="@+id/EditText01"
+        android:hint="查询关键字"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/Button01"
+        android:text="查询"
+        android:textSize="20sp"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/ProgressBar01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/ListView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

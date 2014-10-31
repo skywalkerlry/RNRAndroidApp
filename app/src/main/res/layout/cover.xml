@@ -4,10 +4,14 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
+
     <ImageView
-        android:layout_height="wrap_content"
-        android:src="@drawable/cover"
         android:layout_width="wrap_content"
-        android:id="@+id/imageView1">
-    </ImageView>
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:scaleType="fitXY"
+        android:background="@drawable/cover"
+        android:adjustViewBounds="true"
+        />
+
 </LinearLayout>
